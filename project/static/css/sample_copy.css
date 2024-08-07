@@ -1,0 +1,978 @@
+
+.main{
+    background-color: rgb(230, 230, 230);
+}
+/* First navigation bar */
+
+.navbar1{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    height: 65px;
+}
+
+.logo svg{
+    margin-top: 13px;
+}
+.search{
+    /* background-color: blue; */
+    margin-left: 1%;
+}
+.search input{
+    margin-top: 12px;
+    width: 500px;
+    padding: 6px;
+    padding-left: 35px;
+    border: 1px solid rgb(210, 210, 210) ;
+    border-radius: 5px;
+}
+#searchicon{
+    position: relative;
+    left: 10px;
+    bottom: 33px;
+}
+.location{
+    margin-left: 25%;
+    display: flex;
+    /* background-color: red; */
+}
+.location p,i{
+    margin-top: 22px;
+    width: 50px;
+}
+.location  i{
+    font-size: 12px;
+}
+.signup input{
+    margin-top: 20px;
+    width: 65px;
+    height: 30px;
+    background-color: rgb(219, 65, 91);
+    color: white;
+    border: 1px solid rgb(219, 65, 91);
+    border-radius: 6px;
+}
+.menu{
+    /* background-color: red; */
+    margin-top: 13px;
+    margin-left: 2%;
+}
+.menu i{
+    font-size: 25px;
+}
+
+/* Second navigation bar */
+
+.navbar2{
+    background-color: whitesmoke;
+}
+.navbar2_1{
+    display: flex;  
+}
+.navbar2_1 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.rightside{
+    display: flex;
+    margin-left:43%;
+}
+.rightside p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.leftside{
+    display: flex;
+}
+.leftside p{
+    margin-top: 10px;
+}
+
+/* Ads Carousel */
+
+.ads{
+    margin-top: 20px;
+}
+.carousel{
+    height: 300px;
+}
+.carousel-item img{
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Movies bar1 */
+.movies1{
+    margin-top: 20px;
+}
+
+.heads{
+    display: flex;
+    /* background-color: aliceblue; */
+}
+.headslast{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 68%;
+    color: red;
+}
+.headslast i{
+    margin-top: -8px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.heads p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.headslast p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: red;
+}
+.heads .headslast a{
+    text-decoration: none;
+}
+
+/* Movie Template */
+
+.movie_slides{
+    display: flex;
+    overflow: scroll;
+}
+.movies1 .movie_slides a{
+    text-decoration: none;
+    color: black;
+}
+.template img{
+    height: 420px;
+    border-radius: 11px;
+}
+.head p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.genere p{
+    font-size:15px ;
+    margin-top: -15px;
+    color: grey;
+    font-weight: 400;
+}
+/* width */
+.movie_slides::-webkit-scrollbar  {
+    width: 2px;
+    height: 8px;
+  }
+  
+  /* Track */
+  .movie_slides::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .movie_slides::-webkit-scrollbar-thumb {
+    background:rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .movie_slides::-webkit-scrollbar-thumb:hover {
+    background: rgb(123, 121, 121); 
+  }
+
+/* Ad 2 */
+.ads2{
+    margin-top: 100px;
+}
+
+.ads2 img{
+    height: 93px;
+}
+
+/* Ad 3 */
+.ads3{
+    margin-top: 100px;
+}
+.ads3 p{
+    font-size: 23px;
+    font-weight: 700;
+}
+.templates{
+    display: flex;
+}
+.templates img{
+    height: 222.4px;
+    border-radius: 15px;
+}
+
+/* Premiere page */
+
+.premiere{
+    background-color: rgb(43, 49, 72);
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    height: 700px;
+}
+.premiere_in .logo img{
+    border-radius: 50%;
+    height: 60px;
+}
+.s_dis{
+    margin-left: 20px;
+}
+.premiere_mainlogo .s_dis p{
+    font-size: 25px;
+    font-weight: 700;
+}
+#s_disc{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.premiere_mainlogo{
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+.premiere_template{
+    margin-top: 60px;
+}
+.temp_head p{
+    font-size: 25px;
+    font-weight: 700;
+}
+#temp_disc{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.pre-template img{
+    height: 378px;
+    border-radius: 11px;
+}
+.pre-temp-disc p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#lang{
+    font-size: 16px;
+    margin-top: -20px;
+}
+.pre-templates{
+    display: flex;
+    overflow-x: scroll;
+}
+.pre-templates div{
+    margin-right: 15px;
+}
+.pre-templates::-webkit-scrollbar  {
+    width: 2px;
+    height: 8px;
+  }
+  /* Track */
+  .pre-templates::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(43, 49, 72); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .pre-templates::-webkit-scrollbar-thumb {
+    background: rgb(43, 49, 72);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .pre-templates::-webkit-scrollbar-thumb:hover {
+    background: rgb(123, 121, 121); 
+  }
+
+/* Explore Activites */
+
+.explore{
+    margin-top: 35px;
+}
+.exp-templates{
+    display: flex;
+}
+.exp-templates div{
+    margin-right: 10px;
+}
+.exp-head{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/* Outdoor Activities */
+
+.outdoor{
+    margin-top: 35px;
+}
+.outdoor-head p{
+    font-size: 23px;
+    font-weight: 700;
+}
+.outdoor-templates{
+    display: flex;
+    overflow-x: scroll;
+}
+.outdoor-templates div{
+    margin-right: 10px;
+}
+.outdoor-templates::-webkit-scrollbar  {
+    width: 2px;
+    height: 8px;
+  }
+  /* Track */
+  .outdoor-templates::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .outdoor-templates::-webkit-scrollbar-thumb {
+    background: rgb(230, 230, 230); 
+    border-radius: 10px;
+  }
+
+  
+  /* Handle on hover */
+  .outdoor-templates::-webkit-scrollbar-thumb:hover {
+    
+    background: rgb(107, 106, 106); 
+  }
+
+/* Trending Searches */
+
+.trending-searches{
+    margin-top: 35px;
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+}
+.line div{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.trd{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+.trd p{
+    font-size: 19px;
+    color: red;
+    font-weight: 600;
+}
+#type{
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+/* Contact Part */
+
+.contact{
+    color: white;
+    background-color:rgb(49, 48, 53); 
+    padding-top: 20px;
+    margin-top: 35px;
+}
+.c-in{
+    display: flex;
+}
+.first-part{
+    display: flex;
+}
+.first-part img{
+    height: 40px;
+}
+.first-part p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.second-part p{
+    margin-top: 11px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.third-part{
+    margin-left: 8%
+}
+
+/* Service Part */
+
+.services{
+    background-color:rgb(64, 63, 66);
+    height: 130px;
+    color: rgb(124, 124, 124);
+}
+.services svg{
+    fill: rgb(198, 198, 199);
+}
+.s-in{
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s-in p{
+    margin-top: 10px;
+}
+.first-one, .second-one, .third-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Footer part */
+
+.footer-one{
+    background-color:rgb(49, 48, 53); 
+    height: 650px;
+}
+.f-in{
+    padding-top: 20px;
+}
+.ft{
+    color: rgb(124, 124, 124);
+}
+.ft p{
+    font-size: 12px;
+    margin-top: -15px;
+}
+#ft-head{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.ft-logo{
+    display: flex;
+    margin-top: 35px;
+    /* background-color: rgb(255, 255, 255); */
+}
+hr.hr-ft{
+    border: 1px solid rgb(71, 71, 71);
+    width: 100%;
+}
+.ft-soc-logo{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ft-soc-logo svg{
+    fill: rgb(117, 117, 121);
+    width: 37px;
+    height: 37px;
+    margin-right: 5px;
+}
+.ft-soc-logo svg :hover{
+    fill: white;
+}
+.copyright{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* see-all page */
+
+.all-movies{
+    display: flex;
+    margin-top: 35px;
+}
+.part-1{
+    width: 300px;
+}
+.part1-head, .part2-head{
+    font-size: 25px;
+    font-weight: 500;
+}
+.languages, .genre, .format{
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    color: red;
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+}
+.top i{
+    margin-top: -0.5px;
+    font-size: 12px;
+}
+.top p{
+    margin-left: -25px;
+}
+#lg-top{
+    margin-left: 135px;
+}
+.lang{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lang div{
+    /* background-color: black; */
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(170, 167, 167);
+    font-size: 15px;
+}
+.genre, .format{
+    margin-top: 10px;
+}
+.part-2{
+    margin-left: 15px;
+    /* background-color: red; */
+    width: 100%;;
+}
+.part2-languages{
+    display: flex;
+}
+.part2-languages div{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+    border: 1px solid rgb(172, 168, 168);
+}
+/* .all-movies .part2 .part2-languages a{
+    color: red;
+    text-decoration: none;
+} */
+.comingsoon{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.comingsoon p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.link{
+    display: flex;
+    margin-top: 10px;
+    color: red;
+}
+.link i{
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.link p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.link{
+    text-decoration: none;
+}
+.part-2 .movie_1{
+    margin-left: 20px;
+}
+.part-2 .movie_slides{
+    flex-wrap: wrap;
+}
+
+.path{
+    background-color: white;
+}
+.path-cnt{
+    display: flex;
+    padding-top: 10px;
+    color: rgb(187, 179, 179);
+    font-size: 13px;
+}
+.path-cnt i{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+#path-m{
+    margin-left: -30px;
+}
+
+.about{
+    margin-top: 20px;
+}
+.about a{
+    color: red;
+}
+#ab-head{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(120, 116, 116);
+}
+#ab-para{
+    font-size: 13px;
+    margin-top: -15px;
+    color: rgb(165, 157, 157);
+
+}
+
+/* Movies page */
+.movie{
+    height: 500px;
+    
+}
+.movie-main .movie_1{
+    padding-top: 20px;
+    display: flex;
+}
+.movie-main .movie_1 p{
+    color: white;
+}
+.movie-main .movie_1 img{
+    border-radius: 15px 15px 0px 0px;
+}
+.movie-main .movie_1 .p1 .cinemas{
+    background-color: black;
+    width  : 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+.movie-main .movie_1 .trailer{
+    position: relative;
+    top: -250px;
+    left: 120px;
+    background-color: rgba(63, 61, 61, 0.813);
+    width: fit-content;
+    padding: 1px;
+    border-radius: 5px;
+}
+.movie-main .movie_1 .trailer a{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.p2{
+    margin-left: 25px;
+    margin-top: 45px;
+}
+.p2 p{
+    font-size: 35px;
+    font-weight: 600;
+}
+.movie-ratting svg{
+    fill: red;
+}
+.movie-ratting i{
+    color: white;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+.movie-ratting{
+    background-color: rgb(49, 47, 47);
+    display: flex;  
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#ratting{
+    font-size: 18px;
+    margin-left: 10px;
+    width: 200px;
+}
+#votes{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 16px
+}
+.movie-ratting p{
+    margin-top: 18px;
+}
+.movie-ratting a{
+    margin-left: 20%;
+}
+.info{
+    display: flex;
+    color: black;
+    margin-top: 20px;
+}
+.info div{
+    background-color: rgba(233, 230, 230, 0.898);
+    margin-right: 10px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+.info div p{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.info2 p{
+    font-size: 15px;
+    font-weight: 400    ;
+}
+.info2{
+    margin-top: 20px;
+}
+.booktickets{
+    margin-top: 55px;
+}
+.booktickets a{
+    width: 45%;
+}
+
+.movie-about{
+    margin-top: 35px;
+}
+#m-ab-head{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#cast-head{
+    font-size: 22px;
+    font-weight: 600;
+}
+.members{
+    display: flex;
+    overflow-x: scroll;
+}
+.members::-webkit-scrollbar  {
+    width: 2px;
+    height: 8px;
+  }
+  /* Track */
+  .members::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .members::-webkit-scrollbar-thumb {
+    background: rgb(230, 230, 230); 
+    border-radius: 10px;
+  }
+
+  
+  /* Handle on hover */
+  .members::-webkit-scrollbar-thumb:hover {
+    
+    background: rgb(107, 106, 106); 
+  }
+.members div{
+    margin-right: 60px;
+}
+.members .member img{
+    height: 130px;
+    border-radius: 50%;
+}
+.member{
+    /* background-color: red; */
+    width: 12%;
+    text-align: center;
+}
+#mem-head{
+    font-size: 22px;
+    font-weight: 600;
+}
+#mem-name{
+    font-weight: 550;
+}
+#mem-role{
+    margin-top: -13px;
+}
+
+#tr-head{
+    font-size: 23px;
+    font-weight: 600;
+}
+.top-reviews{
+    margin-top: 35px;
+}
+.tr-main{
+    display: flex;
+}
+#tr-review{
+    margin-left: 75% ;
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+}
+#summ{
+    color: rgb(177, 177, 177);
+}
+.summery{
+    display: flex;
+    /* background-color: blue; */
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+#count{
+    margin-left: 5px;
+    /* background-color: rgb(175, 171, 171); */
+    /* padding-left: 2px;
+    padding-right: 2px; */
+    border-radius: 3px;
+    color: rgb(107, 106, 106);
+}
+.summery p{
+    margin-top: 5px;
+}
+.summ-types{
+    display: flex;
+    overflow-x:scroll ;
+    padding-bottom: 15px;
+}
+.summ-types::-webkit-scrollbar  {
+    width: 2px;
+    height: 8px;
+  }
+  /* Track */
+  .summ-types::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .summ-types::-webkit-scrollbar-thumb {
+    background: rgb(230, 230, 230); 
+    border-radius: 10px;
+  }
+
+  
+  /* Handle on hover */
+  .summ-types::-webkit-scrollbar-thumb:hover {
+    
+    background: rgb(107, 106, 106); 
+  }
+.reviews{
+    margin-top: 25px ;
+    display: flex;
+    overflow-x: scroll;
+}
+.reviews::-webkit-scrollbar  {
+    width: 2px;
+    height: 8px;
+  }
+  /* Track */
+  .reviews::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .reviews::-webkit-scrollbar-thumb {
+    background: rgb(230, 230, 230); 
+    border-radius: 10px;
+  }
+
+  
+  /* Handle on hover */
+  .reviews::-webkit-scrollbar-thumb:hover {
+    
+    background: rgb(107, 106, 106); 
+  }
+.review{
+    /* background-color: red; */
+    width: 50%;
+    padding: 35px;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.first-line{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.user-logo{
+    font-size: 40px;
+    margin-top: -50px;
+}
+.user-logo i{
+    color: grey;
+}
+#username{
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.rev-des{
+    margin-top: 25px;
+}
+#rev-des-head{
+    font-weight: 500;
+}
+#rev-des-dis{
+    margin-top: -15px;
+}
+.last-line{
+    display: flex;
+}
+.bi-hand-thumbs-up, .bi-hand-thumbs-down{
+    margin-top: -3px;
+}
+#count1{
+    margin-left: -30px;
+}
+.bi-hand-thumbs-down{
+    margin-left: 8%;
+}
+#days{
+    margin-left: 150px;
+    font-size: 13px;
+    width: 80px
+}
+.bi-share{
+    margin-top: -1px;
+    margin-left: 15px;
+}
+.youmightalsolike{
+    margin-top: 35px;
+}
+.y-head p{
+    font-size: 23px;
+    font-weight: 600;
+}
+.y-heads{
+    display: flex;
+}
+.viewall{
+    margin-left: 70%;
+    display: flex;
+}
+.y-heads .viewall a{
+    text-decoration: none;
+    color: red;
+}
+.viewall .bi-chevron-right{
+    margin: 1px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.youmightalsolike .movie_slides a{
+    text-decoration: none;
+    color: black;
+}
