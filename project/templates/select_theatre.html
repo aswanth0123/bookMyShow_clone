@@ -122,6 +122,44 @@
 
         </div>
         
+        <div class="theatre_list">
+          <div class="container bg-white">
+            {% for i in theater_names %}
+            <div class="show_time row p-3">
+              <div class="col-lg-4">
+                {{i}}
+
+              </div>
+              <div class="col-lg-8">
+                {% for j in shows %}
+                {% if j.screen.theater.name == i %}
+
+               <a href="../select_seat/{{j.pk}}" class="px-3 btn" style="border: 1px solid rgb(98, 96, 96);"> {{ j.show_time|time:"P" }} 
+               </a>
+               {% endif %}
+           
+               {% endfor %}
+               {% if i.screen.theater.cancellable %}
+               <p class="pt-3" style="color: rgb(128, 133, 137);">Cancellation Available</p>
+               {% else %}
+               <p class="pt-3" style="color: rgb(128, 133, 137);">Non-cancellable</p>
+
+               {% endif %}
+
+              </div>
+
+
+           
+
+            </div>
+            <hr>
+          
+
+            {% endfor %}
+          </div>
+       
+        </div>
+
         
         <div class="footer-one">
           <div class="f-in container">

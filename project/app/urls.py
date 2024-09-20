@@ -10,4 +10,5 @@ urlpatterns=[
     path("movie/<name>",views.view_movie),
     path('register',views.register),
     path('view_theatre/<name>',views.view_theatre),
+    path('select_seat/<pk>',views.select_seat),
 ]

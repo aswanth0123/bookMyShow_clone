@@ -1,0 +1,20 @@
+.navbar1 a{
+    text-decoration: none;
+
+}
+.img_r{
+    font-size: 1.5em;
+    white-space: nowrap;
+    color: rgb(213, 30, 30);
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo a:hover{
+    text-decoration: none;
+}

@@ -29,3 +29,36 @@ class movie_members(models.Model):
     movie_name=models.ForeignKey(movie,on_delete=models.CASCADE)
     def __str__(self):
         return self.member_name.name
+
+
+class Theater(models.Model):
+    name=models.TextField()
+    place=models.TextField()
+    address=models.TextField()
+    cancellable=models.BooleanField(default=False)
+    def __str__(self):
+        return self.name
+
+class Screen(models.Model):
+    theater = models.ForeignKey(Theater, on_delete=models.CASCADE, related_name='screens')
+    screen_number = models.IntegerField()
+
+    def __str__(self):
+        return f"Screen {self.screen_number} - {self.theater.name}"
+
+class Show(models.Model):
+    movie = models.ForeignKey(movie, on_delete=models.CASCADE, related_name='shows')
+    screen = models.ForeignKey(Screen, on_delete=models.CASCADE, related_name='shows')
+    show_time = models.DateTimeField()
+
+    def __str__(self):
+        return f"{self.movie.name} at {self.show_time}"
+    
+
+class Seat(models.Model):
+    screen = models.ForeignKey(Screen, on_delete=models.CASCADE, related_name='seats')
+    seat_number = models.CharField(max_length=10)
+    seat_type = models.CharField(max_length=20, choices=[('Regular', 'Regular'), ('Premium', 'Premium')])
+
+    def __str__(self):
+        return f"Seat {self.seat_number} - {self.seat_type} ({self.screen})"
